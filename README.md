@@ -1,9 +1,9 @@
-🛡️ Basic Python Firewall (IDS/IPS)
+<h3>🛡️ Basic Python Firewall (IDS/IPS)</h3>
 
 This project is a host-based firewall built using Python and Scapy.
 It implements whitelist/blacklist filtering, signature-based intrusion detection (Nimda), and rate-based DoS detection, with automatic blocking using iptables.
 
-🔹 Features
+<h3>🔹 Features</h3>
 
 Whitelist & blacklist support
 
@@ -15,7 +15,7 @@ Automatic IP blocking
 
 Event logging
 
-🔹 Files
+<h3>🔹 Files</h3>
 
 firewall.py – Main firewall engine
 
@@ -27,9 +27,9 @@ packet_flooder.py – DoS attack simulator
 
 logs/ – Firewall logs
 
-🔹 Run
+<h3>🔹 Run</h3>
 sudo python3 firewall.py
 
-🔹 Purpose
+<h3>🔹 Purpose</h3>
 
 Demonstrates core firewall, IDS, and IPS concepts and serves as a foundation for an advanced adaptive firewall project.
